@@ -57,7 +57,7 @@ public class ButtonView extends DemoView {
     // example-category-name: Basics
     private void createBasicButton() {
         // begin-source-example
-        // source-example-heading: Basic button
+        // source-example-heading: Basic Button
         Button button = new Button("Button");
         button.addClickListener(this::showButtonClickedMessage);
         // end-source-example
@@ -101,7 +101,7 @@ public class ButtonView extends DemoView {
     // example-category-name: Accessibility
     private void createAccessibleButton() {
         // begin-source-example
-        // source-example-heading: Accessible button
+        // source-example-heading: Accessible Button
         Button button = new Button("OK");
         // end-source-example
 
@@ -218,7 +218,7 @@ public class ButtonView extends DemoView {
 
     private void createIconButtons() {
         // begin-source-example
-        // source-example-heading: Sizes
+        // source-example-heading: Icon Buttons
         Button plusButton = new Button(new Icon(VaadinIcon.PLUS));
         plusButton.addThemeVariants(ButtonVariant.LUMO_ICON);
 
